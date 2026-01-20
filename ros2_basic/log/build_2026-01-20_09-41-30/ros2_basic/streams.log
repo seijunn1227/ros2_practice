@@ -1,0 +1,51 @@
+[0.770s] Invoking command in '/home/s10/ros2_ws/src/ros2_practice/ros2_basic': PYTHONPATH=/home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_basic build --build-base /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build install --record /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/install.log --single-version-externally-managed install_data
+[1.013s] running egg_info
+[1.013s] creating build/ros2_basic/ros2_basic.egg-info
+[1.014s] writing build/ros2_basic/ros2_basic.egg-info/PKG-INFO
+[1.015s] writing dependency_links to build/ros2_basic/ros2_basic.egg-info/dependency_links.txt
+[1.015s] writing entry points to build/ros2_basic/ros2_basic.egg-info/entry_points.txt
+[1.015s] writing requirements to build/ros2_basic/ros2_basic.egg-info/requires.txt
+[1.016s] writing top-level names to build/ros2_basic/ros2_basic.egg-info/top_level.txt
+[1.016s] writing manifest file 'build/ros2_basic/ros2_basic.egg-info/SOURCES.txt'
+[1.018s] reading manifest file 'build/ros2_basic/ros2_basic.egg-info/SOURCES.txt'
+[1.019s] writing manifest file 'build/ros2_basic/ros2_basic.egg-info/SOURCES.txt'
+[1.020s] running build
+[1.020s] running build_py
+[1.020s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build
+[1.020s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib
+[1.020s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic
+[1.021s] copying ros2_basic/wall_stop_controller.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic
+[1.022s] copying ros2_basic/__init__.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic
+[1.022s] copying ros2_basic/pose_subscriber.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic
+[1.024s] copying ros2_basic/cmd_vel_publisher.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic
+[1.025s] copying ros2_basic/hello_node.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic
+[1.025s] running install
+[1.025s] running install_lib
+[1.026s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic
+[1.027s] copying /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic/wall_stop_controller.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic
+[1.027s] copying /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic/__init__.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic
+[1.027s] copying /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic/pose_subscriber.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic
+[1.027s] copying /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic/cmd_vel_publisher.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic
+[1.028s] copying /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build/lib/ros2_basic/hello_node.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic
+[1.028s] byte-compiling /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic/wall_stop_controller.py to wall_stop_controller.cpython-310.pyc
+[1.029s] byte-compiling /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic/__init__.py to __init__.cpython-310.pyc
+[1.030s] byte-compiling /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.030s] byte-compiling /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic/cmd_vel_publisher.py to cmd_vel_publisher.cpython-310.pyc
+[1.031s] byte-compiling /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic/hello_node.py to hello_node.cpython-310.pyc
+[1.031s] running install_data
+[1.032s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/share/ament_index
+[1.032s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/share/ament_index/resource_index
+[1.032s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/share/ament_index/resource_index/packages
+[1.033s] copying resource/ros2_basic -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/share/ament_index/resource_index/packages
+[1.033s] copying package.xml -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/share/ros2_basic
+[1.034s] creating /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/share/ros2_basic/launch
+[1.034s] copying launch/turtlesim_demo.launch.py -> /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/share/ros2_basic/launch
+[1.035s] running install_egg_info
+[1.038s] Copying build/ros2_basic/ros2_basic.egg-info to /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages/ros2_basic-0.0.0-py3.10.egg-info
+[1.039s] running install_scripts
+[1.059s] Installing cmd_vel_publisher script to /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/ros2_basic
+[1.059s] Installing hello_node script to /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/ros2_basic
+[1.060s] Installing pose_subscriber script to /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/ros2_basic
+[1.060s] Installing wall_stop_controller script to /home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/ros2_basic
+[1.060s] writing list of installed files to '/home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/install.log'
+[1.081s] Invoked command in '/home/s10/ros2_ws/src/ros2_practice/ros2_basic' returned '0': PYTHONPATH=/home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/s10/ros2_ws/src/ros2_practice/ros2_basic/install/ros2_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_basic build --build-base /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/build install --record /home/s10/ros2_ws/src/ros2_practice/ros2_basic/build/ros2_basic/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+[console_scripts]
+cmd_vel_publisher = ros2_basic.cmd_vel_publisher:main
+hello_node = ros2_basic.hello_node:main
+pose_subscriber = ros2_basic.pose_subscriber:main
+wall_stop_controller = ros2_basic.wall_stop_controller:main
+
