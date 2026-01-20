@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.002085] (kame_control) JobQueued: {'identifier': 'kame_control', 'dependencies': OrderedDict()}
+[0.002199] (kame_control) JobStarted: {'identifier': 'kame_control'}
+[0.099473] (-) TimerEvent: {}
+[0.181749] (kame_control) JobEnded: {'identifier': 'kame_control', 'rc': 0}
+[0.183270] (-) EventReactorShutdown: {}
